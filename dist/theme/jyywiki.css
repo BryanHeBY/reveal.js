@@ -372,22 +372,51 @@
  }
  
  
- .slides #title-slide {
-   top: 50%;
-   transform: translate(0, -50%);
- }
- 
- .slides .level1 {
-   top: 50%;
-   transform: translate(0, -50%);
- }
- 
- .slides .level2 {
-   top: 10px;
-   text-align: left;
- }
- 
- red {
-   color: red;
- }
+.slides #title-slide {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.slides .level1 {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.pdf-page .present {
+  height: 96%;
+}
+
+.pdf-page .present .title {
+  position: relative;
+  top: 35%;
+}
+
+.pdf-page .present .author {
+  position: relative;
+  top: 35%;
+}
+
+.pdf-page .present .date {
+  position: relative;
+  top: 35%;
+}
+
+.pdf-page .level1 {
+  height: 96%;
+}
+
+.pdf-page .level1 h1 {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.slides .level2 {
+  top: 10px;
+  text-align: left;
+}
+
+red {
+  color: red;
+}
   
